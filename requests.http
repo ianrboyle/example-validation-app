@@ -1,0 +1,19 @@
+### Create
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "first_name": "J",
+  "last_name": "S",
+  "email": "jsssmit@mail.com"
+}
+
+###
+PATCH  http://localhost:3000/users/2.json
+Content-Type: application/json
+
+{
+  "first_name": "Johnny",
+  "last_name": "Smith",
+  "email": "johnsmith@email.com"
+}
